@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tps_anchor_optimiser",
+  "version": "${version}",
+  "name": "TP's Anchor Optimiser",
+  "description": "Disguise any item or block as another. Pick what it looks like, rename it, recolour the name, and get proper transparency on look-alike spawners. Client-side only.",
+  "authors": ["TP"],
+  "license": "MIT",
+  "icon": "assets/tps_anchor_optimiser/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.tps.anchoroptimiser.TpsAnchorOptimiser"]
+  },
+  "mixins": ["tps_anchor_optimiser.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.tps.anchoroptimiser.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ItemModelResolverMixin",
+    "BlockModelShaperMixin",
+    "ItemBlockRenderTypesMixin",
+    "ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
